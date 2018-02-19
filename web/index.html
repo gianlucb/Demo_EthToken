@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Demo Ethereum Token Application</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="container">
+    <h1>Demo Ethereum Token Application</h1>
+
+    <div class="row table-responsive col-md-8">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Accounts</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td id="account-1-name">Account 1</td>
+                    <td class="btn-info" id="account-1"></td>
+                </tr>
+                <tr>
+                    <td id="account-2-name">Account 2</td>
+                    <td class="btn-info" id="account-2"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="row col-md-8">
+        Transfer a custom Tokens (MDT) from <b>Account 1</b> to <b>Account 2</b>
+        <input type="text" id="value" />
+        <a href="#" onclick="TransferToken()" class="btn btn-primary">Transfer</a>
+    </div>
+
+</body>
+
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+
+<script src="./index.js"></script>
+
+</html>
