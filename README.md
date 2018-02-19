@@ -1,6 +1,6 @@
 # Demo Dapp - Simple Token on Ethereum
 
-Simple application composed by a web page that transfer a simple Token.
+Simple application composed by a web page that transfers a simple custom Token.
 The web application uses a JS library to interact with a local Ethereum node ([Ganache](http://truffleframework.com/ganache/))
  
 ## Structure
